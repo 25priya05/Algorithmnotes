@@ -1,3 +1,7 @@
+// leaders in array 
+// here we are using the brute force method
+
+
 #include <iostream>
 #include <vector>
 using namespace std;
