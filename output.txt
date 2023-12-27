@@ -1,0 +1,23 @@
+.\jspwTest.exe : The term '.\jspwTest.exe' is not recognized as the name of 
+a cmdlet, function, script file, or operable program. Check the spelling of 
+the name, or if a path was included, verify that the path is correct and 
+try again.
+At line:1 char:131
++ ... \jspwTest.cpp ; g++ jspwTest.cpp -o jspwTest ; .\jspwTest.exe ; del j 
+...
++                                                    ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\jspwTest.exe:String) [], C 
+   ommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+del : Cannot find path 'C:\Users\kumar\Algorithmnotes\jspwTest.exe' because 
+it does not exist.
+At line:1 char:148
++ ...  jspwTest.cpp -o jspwTest ; .\jspwTest.exe ; del jspwTest.exe ; del j 
+...
++                                                  ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\kumar\...es\jspwTes 
+   t.exe:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.Re 
+   moveItemCommand
+ 
